@@ -1,9 +1,106 @@
 
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
-
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+}
+
+nav {
+    position: fixed;
+    width: 1440px;
+    display: flex;
+    background-color: white;
+    height: 50px;
+}
+nav > div > img {
+    position: absolute;
+    left: 130px;
+    height: 50px;
+}
+ul a {
+    color: gray;
+    text-decoration: none;
+}
+a:hover {
+    color: orange
+}
+
+#right-nav {
+    position: absolute;
+    left: 800px;
+    top: 15px;
+    width: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.three-boxes {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.introkarma {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Users/openculturalcenter/Desktop/Fran/HTML-CSS-Coursework-Week2/HTML-CSS-Coursework-Week2/img/first-background.jpg);
+    background-size: 1600px 735px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: white;
+    height: 700px
+}
+button {
+
+    width: 130px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+}
+.enalkarma {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    height: 500px;
+   
+}
+.all-boost-go {
+    display: flex;
+    justify-content: space-around;
+   
+}
+.enalkarma p {
+    text-align: center;
+}
+.last-box {
+    display: flex;
+  
+}
+#secondbox {
+    padding-top: 160px;
+    background-color: rgb(236, 199, 169);
+    text-align: center;
+   
+}
+@media screen and (max-width: 768px){
+    .last-box {
+        display: none;
+    }
+    .all-boost-go {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /**

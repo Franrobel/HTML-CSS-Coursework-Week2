@@ -16,20 +16,21 @@ Please complete the details below this message
 
 # Your Details
 
-- Your Name:
-- Your City:
-- Your Slack Name:
+- Your Name: Francisco
+- Your City: Barcelona, España
+- Your Slack Name: Francisco Rodriguez
 
 # Homework Details
 
-- Module:
-- Week:
+- Module: HTML-CSS
+- Week: 2
 
 # Notes
 
 - What did you find easy?
 
 - What did you find hard?
+I didn't finished yet but for now I found hard to define what height and width assign to each element. I also think that setting the media queries and how to work fine with position absolute relative and fixed are kind of difficult too
 
 - What do you still not understand?
 
