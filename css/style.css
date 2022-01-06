@@ -1,25 +1,21 @@
 
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
-* {
-    margin: 0;
-    padding: 0;
-}
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
 nav {
-    position: fixed;
-    width: 1440px;
+ 
+    height: 35px;
     display: flex;
     background-color: white;
-    height: 50px;
 }
-nav > div > img {
-    position: absolute;
-    left: 130px;
-    height: 50px;
+.logo-navbar {
+    margin-left: 180px;
+    margin-top: 8px;
+    width: 2%;
+    text-align: center;
 }
 ul a {
     color: gray;
@@ -30,14 +26,13 @@ a:hover {
 }
 
 #right-nav {
-    position: absolute;
-    left: 800px;
-    top: 15px;
-    width: 600px;
+    margin-top: 18px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style-type: none;
+    padding-left: 400px;
+    padding-right: 50px;
 }
 .three-boxes {
     
@@ -51,20 +46,34 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/Users/openculturalcenter/Desktop/Fran/HTML-CSS-Coursework-Week2/HTML-CSS-Coursework-Week2/img/first-background.jpg);
-    background-size: 1600px 735px;
-    background-position: bottom;
+    background-image: url("../img/first-background.jpg");
+    background-size: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     color: white;
     height: 700px
 }
-button {
+.introkarma h1 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    margin-bottom: 1px;
+}
+.introkarma p {
+    font-size: 1.7em;
+    font-weight: 100;
+    margin-top: 24px;
+}
 
-    width: 130px;
-    height: 50px;
-    background-color: orange;
-    color: white;
+button {
+    width: 150px;
+    height: 49px;
+    margin-top: 40px;
+    background-color: #f25a2a;
     border-radius: 5px;
+    border-color: #f2592a;
+    border-width: inherit;
+    color: #fdfdfd;
 }
 .enalkarma {
     display: flex;
@@ -76,8 +85,20 @@ button {
 }
 .all-boost-go {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
    
+}
+.every-needs-icons{
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+.enalkarma h1 {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    margin-bottom: 50px;
 }
 .enalkarma p {
     text-align: center;
@@ -86,11 +107,42 @@ button {
     display: flex;
   
 }
-#secondbox {
-    padding-top: 160px;
+.before-footer-left{
+    width:40%;
+}
+.before-footer-left img {
+    height: 423px;
+
+}
+.before-footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 423px;
     background-color: rgb(236, 199, 169);
     text-align: center;
-   
+}
+.before-footer-right h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: 1px;
+    font-style: italic;
+}
+footer{
+    height: 50px;
+    margin: 90px;
+}
+.inside-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+.footer-images{
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
 }
 @media screen and (max-width: 768px){
     .last-box {
